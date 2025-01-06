@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = 'django-insecure-gc2wtrq=l#+0#0v#60dx8-un+-v!g2fz0a&n3#1dz0#wcbjiw9'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ZaiKret.pythonanywhere.com']
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ZaiKret.pythonanywhere.com']
 
